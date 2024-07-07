@@ -50,7 +50,6 @@ class ProfileDetails extends Component {
     return (
       <div className="profile-success-container">
         <img src={profileImageUrl} alt="profile" className="profile-img" />
-        <p className="profile-bio">{shortBio}</p>
         <h1 className="profile-heading">{name}</h1>
         <p className="profile-bio">{shortBio}</p>
       </div>

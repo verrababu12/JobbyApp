@@ -23,12 +23,18 @@
 }
 .profile-success-container {
   background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
-  height: 200px;
+  height: 210px;
   margin-bottom: 28px;
-  border-radius: 40px;
+  border-radius: 28px;
   background-size: cover;
   padding: 30px;
 }
+
+/* @media screen and (max-width: 768px) {
+  .profile-success-container {
+    height: 280px;
+  }
+} */
 .profile-img {
   width: 40px;
 }
